@@ -351,7 +351,7 @@ static OPCODE POSSIBLE_OPCODES[] = {
 	 {JEDEC_AAI_WORD_PROGRAM, SPI_OPCODE_TYPE_WRITE_NO_ADDRESS, 0},	// Auto Address Increment
 };
 
-static OPCODES O_EXISTING = {};
+static OPCODES O_EXISTING;
 
 /* pretty printing functions */
 static void prettyprint_opcodes(OPCODES *ops)
